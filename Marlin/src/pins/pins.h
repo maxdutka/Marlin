@@ -37,7 +37,7 @@
 
 #define MAX_EXTRUDERS 6
 
-#if   MB(RAMPS_13_EFB, RAMPS_14_EFB, RAMPS_PLUS_EFB, RAMPS_14_RE_ARM_EFB, RAMPS_SMART_EFB, RAMPS_DUO_EFB, RAMPS4DUE_EFB)
+#if   MB(RAMPS_13_EFB, RAMPS_14_EFB, RAMPS_PLUS_EFB, RAMPS_14_RE_ARM_EFB, RAMPS_SMART_EFB, RAMPS_DUO_EFB, RAMPS4DUE_EFB, RAMPS_14_EFB_MD)
   #define IS_RAMPS_EFB
 #elif MB(RAMPS_13_EEB, RAMPS_14_EEB, RAMPS_PLUS_EEB, RAMPS_14_RE_ARM_EEB, RAMPS_SMART_EEB, RAMPS_DUO_EEB, RAMPS4DUE_EEB)
   #define IS_RAMPS_EEB
@@ -87,6 +87,10 @@
   #include "ramps/pins_RAMPS_PLUS.h"            // ATmega1280, ATmega2560                 env:megaatmega1280 env:megaatmega2560
 #elif MB(RAMPS_PLUS_SF)
   #include "ramps/pins_RAMPS_PLUS.h"            // ATmega1280, ATmega2560                 env:megaatmega1280 env:megaatmega2560
+#elif MB(RAMPS_14_EFB_MD)
+#include "ramps/pins_RAMPS_MD.h"                 // ATmega1280, ATmega2560                 env:megaatmega1280 env:megaatmega2560
+
+
 
 //
 // RAMPS Derivatives - ATmega1280, ATmega2560
