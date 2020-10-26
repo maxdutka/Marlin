@@ -436,3 +436,4 @@
     #define KILL_PIN          63
 
 #endif // HAS_SPI_LCD
+#endif //#if HAS_WIRED_LCD
