@@ -415,25 +415,23 @@
 // LCDs and Controllers //
 //////////////////////////
 
-#if HAS_WIRED_LCD
 
   //
   // LCD Display output pins
   //
-  #if ENABLED(REPRAPWORLD_GRAPHICAL_LCD)
 
-    #define LCD_PINS_RS         57   // CS chip select /SS chip slave select
-    #define LCD_PINS_ENABLE     59   // SID (MOSI)
-    #define LCD_PINS_D4         61   // SCK (CLK) clock
 
-    #define BEEPER_PIN      37
+#define LCD_PINS_RS         57   // CS chip select /SS chip slave select
+#define LCD_PINS_ENABLE     59   // SID (MOSI)
+#define LCD_PINS_D4         61   // SCK (CLK) clock
 
-    #define BTN_EN1           33
-    #define BTN_EN2           31
-    #define BTN_ENC           35
-    #define SD_DETECT_PIN     49
+#define BEEPER_PIN      37
 
-    #define KILL_PIN          63
+#define BTN_EN1           33
+#define BTN_EN2           31
+#define BTN_ENC           35
+#define SD_DETECT_PIN     49
 
-#endif // HAS_SPI_LCD
-#endif //#if HAS_WIRED_LCD
+#define KILL_PIN          63
+
+
