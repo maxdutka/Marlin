@@ -421,9 +421,9 @@
   //
 
 
-#define LCD_PINS_RS         57   // CS chip select /SS chip slave select
-#define LCD_PINS_ENABLE     59   // SID (MOSI)
-#define LCD_PINS_D4         61   // SCK (CLK) clock
+#define LCD_PINS_RS         25   // CS chip select /SS chip slave select
+#define LCD_PINS_ENABLE     27   // SID (MOSI)
+#define LCD_PINS_D4         29   // SCK (CLK) clock
 
 #define BEEPER_PIN      37
 
