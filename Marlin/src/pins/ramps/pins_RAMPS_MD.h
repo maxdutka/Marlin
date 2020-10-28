@@ -117,8 +117,8 @@
   #define Y_CS_PIN         Y_ENABLE_PIN
 #endif
 
-#define Z_STEP_PIN         57
-#define Z_DIR_PIN          58
+#define Z_STEP_PIN         58
+#define Z_DIR_PIN          57
 #define Z_ENABLE_PIN       62
 #ifndef Z_CS_PIN
   #define Z_CS_PIN         Z_ENABLE_PIN
@@ -127,7 +127,7 @@
 
 #define E0_STEP_PIN        36
 #define E0_DIR_PIN         34
-#define E0_ENABLE_PIN      30
+#define E0_ENABLE_PIN      62
 
 #ifndef E0_CS_PIN
 #define E0_CS_PIN          E0_ENABLE_PIN
