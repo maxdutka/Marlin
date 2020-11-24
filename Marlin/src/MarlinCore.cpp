@@ -1046,6 +1046,7 @@ void setup() {
     );
   #endif
   SERIAL_ECHO_MSG("Compiled: " __DATE__);
+  SERIAL_ECHOLNPGM(STR_START);
   SERIAL_ECHO_MSG(STR_FREE_MEMORY, freeMemory(), STR_PLANNER_BUFFER_BYTES, (int)sizeof(block_t) * (BLOCK_BUFFER_SIZE));
 
   // Init buzzer pin(s)
